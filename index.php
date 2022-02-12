@@ -1,4 +1,4 @@
 <?
 include 'header.html';
-include 'blogBody.php';
+include 'blog.html';
 include 'footer.php';
