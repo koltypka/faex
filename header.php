@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<?const way ='../../'?>
+<?const way ='/'?>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -84,14 +84,14 @@
                             </div>
                             <div class="mainmenu pull-left">
                                 <ul class="nav navbar-nav collapse navbar-collapse">
-                                    <li><a href="<?=way?>index.html" class="active">Главная</a></li>
+                                    <li><a href="<?=way?>" class="active">Главная</a></li>
                                     <li class="dropdown"><a href="#">Магазин<i class="fa fa-angle-down"></i></a>
                                         <ul role="menu" class="sub-menu">
                                             <li><a href="#">Каталог товаров</a></li>
                                             <li><a href="#">Корзина</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Блог</a></li>
+                                    <li class="dropdown"><a href="<?=way?>blog/">Блог</a></li>
                                     <li><a href="#">Контакты</a></li>
                                 </ul>
                             </div>
